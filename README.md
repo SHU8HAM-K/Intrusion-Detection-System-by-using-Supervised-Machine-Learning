@@ -1,6 +1,30 @@
 # Intrusion-Detection-System-by-using-Supervised-Machine-Learning
 Using three different machine learning algorithm to detect intrusion in network and make a comparison that which algorithm is best between them.
 
+I used Pandas, Numpy, Matplotlib, Seaborn, Sklearn, MinMax Scaler module of Sklearn, Train Test Split, Decision Tree, Support Vector Machine and Logistic Regression from sklearn module to create this project.
+
+I used KDD's 99 Dataset from Kaggle.
+
+By using Correlation and Heatmap I drop the unnecessary attributes.
+
+Some Categorical attributes are highly correlated with the target column, So I map it.
+
+For Training 67 % of data is used and for testing rest of 33 % are used.
+
+Decision tree takes 1.8086 for training and 0.0927 testing time and give 99.0582 % train score with 99.0523 % test score. 
+
+Support Vector machine takes 184.7094 for training and 102.1106 for testing time and give 99.8755% train score with 99.8791% test score.
+
+Logistic regression takes 84.9530 for training and 0.0688 testing time and give 99.352858 % train score with 99.352867%test score.
+
+When we do a comparison between these algorithms, we found that the decision tree takes less training and testing time. Support Vector 
+Machine has the highest accuracy as we compared it with Decision Tree and Logistic Regression.
+
+So according to less time decision tree is good for our KDD’99 dataset and if we 
+talk about accuracy then Support Vector Machine. 
+
+I wrote a thesis paper on this and this the the ABSTRACT of my project.
+
 The whole world is joining the Internet because our world moving towards 
 digitalization. Internet/Networks are significant today on the planet and 
 information security has turned into a pivotal area of study. As the number of users 
